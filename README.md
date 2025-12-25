@@ -26,7 +26,7 @@ docker run -p 8080:8080 text2lang
 
 ## API使用
 
-post到`http://你的地址:8080/`
+post到`http://你的地址:7891/`
 
 请求:
 ```json
