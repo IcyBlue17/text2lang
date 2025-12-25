@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
 	"unicode"
+
+	"github.com/gin-gonic/gin"
 )
 
 type Req struct {
@@ -18,7 +19,7 @@ type Res struct {
 func main() {
 	r := gin.Default()
 	r.POST("/", detect)
-	r.Run(":8080")
+	r.Run(":7891")
 }
 
 func detect(c *gin.Context) {
