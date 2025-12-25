@@ -22,7 +22,7 @@ docker run -p 8080:8080 text2lang
 
 部署到koyeb:  
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=text2lang&type=git&repository=IcyBlue17%2Ftext2lang&branch=main&builder=dockerfile&instance_type=free&regions=fra&instances_min=0&autoscaling_sleep_idle_delay=3900&ports=7891%3Bhttp%3B%2F&hc_protocol%5B8080%5D=tcp&hc_grace_period%5B8080%5D=5&hc_interval%5B8080%5D=30&hc_restart_limit%5B8080%5D=3&hc_timeout%5B8080%5D=5&hc_path%5B8080%5D=%2F&hc_method%5B8080%5D=get)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=text2lang&type=git&repository=IcyBlue17%2Ftext2lang&branch=main&builder=dockerfile&instance_type=free&regions=fra&instances_min=0&autoscaling_sleep_idle_delay=3900&ports=7891%3Bhttp%3B%2F&hc_protocol%5B7891%5D=tcp&hc_grace_period%5B7891%5D=5&hc_interval%5B7891%5D=30&hc_restart_limit%5B7891%5D=3&hc_timeout%5B7891%5D=5&hc_path%5B7891%5D=%2F&hc_method%5B7891%5D=get)
 
 ## API使用
 
